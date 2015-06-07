@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C64A8321B23E20300EE2699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8311B23E20300EE2699 /* main.m */; };
+		2C64A8351B23E20300EE2699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8341B23E20300EE2699 /* AppDelegate.m */; };
+		2C64A83D1B23E20300EE2699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A83C1B23E20300EE2699 /* Images.xcassets */; };
+		2C64A8401B23E20300EE2699 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A83E1B23E20300EE2699 /* LaunchScreen.xib */; };
+		2C64A84C1B23E20400EE2699 /* ITTCalendarUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A84B1B23E20400EE2699 /* ITTCalendarUtilTests.m */; };
+		2C64A8601B23E26D00EE2699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8561B23E26D00EE2699 /* ViewController.m */; };
+		2C64A8661B23E26D00EE2699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A85F1B23E26D00EE2699 /* Main.storyboard */; };
+		2C64A8DA1B23E28400EE2699 /* FLEXArgumentInputColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8731B23E28400EE2699 /* FLEXArgumentInputColorView.m */; };
+		2C64A8DB1B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8751B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.m */; };
+		2C64A8DC1B23E28400EE2699 /* FLEXArgumentInputFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8771B23E28400EE2699 /* FLEXArgumentInputFontView.m */; };
+		2C64A8DD1B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8791B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.m */; };
+		2C64A8DE1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A87B1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.m */; };
+		2C64A8DF1B23E28400EE2699 /* FLEXArgumentInputNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A87D1B23E28400EE2699 /* FLEXArgumentInputNumberView.m */; };
+		2C64A8E01B23E28400EE2699 /* FLEXArgumentInputStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A87F1B23E28400EE2699 /* FLEXArgumentInputStringView.m */; };
+		2C64A8E11B23E28400EE2699 /* FLEXArgumentInputStructView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8811B23E28400EE2699 /* FLEXArgumentInputStructView.m */; };
+		2C64A8E21B23E28400EE2699 /* FLEXArgumentInputSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8831B23E28400EE2699 /* FLEXArgumentInputSwitchView.m */; };
+		2C64A8E31B23E28400EE2699 /* FLEXArgumentInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8851B23E28400EE2699 /* FLEXArgumentInputTextView.m */; };
+		2C64A8E41B23E28400EE2699 /* FLEXArgumentInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8871B23E28400EE2699 /* FLEXArgumentInputView.m */; };
+		2C64A8E51B23E28400EE2699 /* FLEXArgumentInputViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8891B23E28400EE2699 /* FLEXArgumentInputViewFactory.m */; };
+		2C64A8E61B23E28400EE2699 /* FLEXDefaultEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A88B1B23E28400EE2699 /* FLEXDefaultEditorViewController.m */; };
+		2C64A8E71B23E28400EE2699 /* FLEXFieldEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A88D1B23E28400EE2699 /* FLEXFieldEditorView.m */; };
+		2C64A8E81B23E28400EE2699 /* FLEXFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A88F1B23E28400EE2699 /* FLEXFieldEditorViewController.m */; };
+		2C64A8E91B23E28400EE2699 /* FLEXIvarEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8911B23E28400EE2699 /* FLEXIvarEditorViewController.m */; };
+		2C64A8EA1B23E28400EE2699 /* FLEXMethodCallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8931B23E28400EE2699 /* FLEXMethodCallingViewController.m */; };
+		2C64A8EB1B23E28400EE2699 /* FLEXPropertyEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8951B23E28400EE2699 /* FLEXPropertyEditorViewController.m */; };
+		2C64A8EC1B23E28400EE2699 /* FLEXExplorerToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8981B23E28400EE2699 /* FLEXExplorerToolbar.m */; };
+		2C64A8ED1B23E28400EE2699 /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A89A1B23E28400EE2699 /* FLEXExplorerViewController.m */; };
+		2C64A8EE1B23E28400EE2699 /* FLEXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A89C1B23E28400EE2699 /* FLEXManager.m */; };
+		2C64A8EF1B23E28400EE2699 /* FLEXToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A89E1B23E28400EE2699 /* FLEXToolbarItem.m */; };
+		2C64A8F01B23E28400EE2699 /* FLEXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8A01B23E28400EE2699 /* FLEXWindow.m */; };
+		2C64A8F11B23E28400EE2699 /* FLEXClassesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8A31B23E28400EE2699 /* FLEXClassesTableViewController.m */; };
+		2C64A8F21B23E28400EE2699 /* FLEXFileBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8A51B23E28400EE2699 /* FLEXFileBrowserTableViewController.m */; };
+		2C64A8F31B23E28400EE2699 /* FLEXGlobalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8A71B23E28400EE2699 /* FLEXGlobalsTableViewController.m */; };
+		2C64A8F41B23E28400EE2699 /* FLEXInstancesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8A91B23E28400EE2699 /* FLEXInstancesTableViewController.m */; };
+		2C64A8F51B23E28400EE2699 /* FLEXLibrariesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8AB1B23E28400EE2699 /* FLEXLibrariesTableViewController.m */; };
+		2C64A8F61B23E28400EE2699 /* FLEXLiveObjectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8AD1B23E28400EE2699 /* FLEXLiveObjectsTableViewController.m */; };
+		2C64A8F71B23E28400EE2699 /* FLEXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8AF1B23E28400EE2699 /* FLEXWebViewController.m */; };
+		2C64A8F81B23E28400EE2699 /* FLEXArrayExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8B21B23E28400EE2699 /* FLEXArrayExplorerViewController.m */; };
+		2C64A8F91B23E28400EE2699 /* FLEXClassExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8B41B23E28400EE2699 /* FLEXClassExplorerViewController.m */; };
+		2C64A8FA1B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8B61B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m */; };
+		2C64A8FB1B23E28400EE2699 /* FLEXDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8B81B23E28400EE2699 /* FLEXDescriptionTableViewCell.m */; };
+		2C64A8FC1B23E28400EE2699 /* FLEXDictionaryExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8BA1B23E28400EE2699 /* FLEXDictionaryExplorerViewController.m */; };
+		2C64A8FD1B23E28400EE2699 /* FLEXImageExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8BC1B23E28400EE2699 /* FLEXImageExplorerViewController.m */; };
+		2C64A8FE1B23E28400EE2699 /* FLEXObjectExplorerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8BE1B23E28400EE2699 /* FLEXObjectExplorerFactory.m */; };
+		2C64A8FF1B23E28400EE2699 /* FLEXObjectExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8C01B23E28400EE2699 /* FLEXObjectExplorerViewController.m */; };
+		2C64A9001B23E28400EE2699 /* FLEXSetExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8C21B23E28400EE2699 /* FLEXSetExplorerViewController.m */; };
+		2C64A9011B23E28400EE2699 /* FLEXViewControllerExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8C41B23E28400EE2699 /* FLEXViewControllerExplorerViewController.m */; };
+		2C64A9021B23E28400EE2699 /* FLEXViewExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8C61B23E28400EE2699 /* FLEXViewExplorerViewController.m */; };
+		2C64A9031B23E28400EE2699 /* FLEXHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8C91B23E28400EE2699 /* FLEXHeapEnumerator.m */; };
+		2C64A9041B23E28400EE2699 /* FLEXResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8CB1B23E28400EE2699 /* FLEXResources.m */; };
+		2C64A9051B23E28400EE2699 /* FLEXRuntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8CD1B23E28400EE2699 /* FLEXRuntimeUtility.m */; };
+		2C64A9061B23E28400EE2699 /* FLEXUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8CF1B23E28400EE2699 /* FLEXUtility.m */; };
+		2C64A9071B23E28400EE2699 /* FLEXHierarchyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8D21B23E28400EE2699 /* FLEXHierarchyTableViewCell.m */; };
+		2C64A9081B23E28400EE2699 /* FLEXHierarchyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8D41B23E28400EE2699 /* FLEXHierarchyTableViewController.m */; };
+		2C64A9091B23E28400EE2699 /* FLEXImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A8D61B23E28400EE2699 /* FLEXImagePreviewViewController.m */; };
+		2C64A9131B23E30900EE2699 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A90C1B23E30900EE2699 /* CalendarView.m */; };
+		2C64A9141B23E30900EE2699 /* CalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */; };
+		2C64A9151B23E30900EE2699 /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */; };
+		2C64A9161B23E30900EE2699 /* CalendarViewReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */; };
+		2C64A9171B23E30900EE2699 /* CalendarViewReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */; };
+		2C64A9201B23E31400EE2699 /* ITTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91A1B23E31400EE2699 /* ITTDateUtil.m */; };
+		2C64A9211B23E31400EE2699 /* ITTDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91C1B23E31400EE2699 /* ITTDay.m */; };
+		2C64A9221B23E31400EE2699 /* ITTMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91F1B23E31400EE2699 /* ITTMonth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C64A8461B23E20400EE2699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C64A8241B23E20300EE2699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64A82B1B23E20300EE2699;
+			remoteInfo = ITTCalendarUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C64A82C1B23E20300EE2699 /* ITTCalendarUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITTCalendarUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64A8301B23E20300EE2699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64A8311B23E20300EE2699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C64A8331B23E20300EE2699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C64A8341B23E20300EE2699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C64A83C1B23E20300EE2699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C64A83F1B23E20300EE2699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C64A8451B23E20400EE2699 /* ITTCalendarUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITTCalendarUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64A84A1B23E20400EE2699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64A84B1B23E20400EE2699 /* ITTCalendarUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarUtilTests.m; sourceTree = "<group>"; };
+		2C64A8551B23E26D00EE2699 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C64A8561B23E26D00EE2699 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C64A85F1B23E26D00EE2699 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C64A8721B23E28400EE2699 /* FLEXArgumentInputColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputColorView.h; sourceTree = "<group>"; };
+		2C64A8731B23E28400EE2699 /* FLEXArgumentInputColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputColorView.m; sourceTree = "<group>"; };
+		2C64A8741B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputFontsPickerView.h; sourceTree = "<group>"; };
+		2C64A8751B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputFontsPickerView.m; sourceTree = "<group>"; };
+		2C64A8761B23E28400EE2699 /* FLEXArgumentInputFontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputFontView.h; sourceTree = "<group>"; };
+		2C64A8771B23E28400EE2699 /* FLEXArgumentInputFontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputFontView.m; sourceTree = "<group>"; };
+		2C64A8781B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputJSONObjectView.h; sourceTree = "<group>"; };
+		2C64A8791B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputJSONObjectView.m; sourceTree = "<group>"; };
+		2C64A87A1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputNotSupportedView.h; sourceTree = "<group>"; };
+		2C64A87B1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputNotSupportedView.m; sourceTree = "<group>"; };
+		2C64A87C1B23E28400EE2699 /* FLEXArgumentInputNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputNumberView.h; sourceTree = "<group>"; };
+		2C64A87D1B23E28400EE2699 /* FLEXArgumentInputNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputNumberView.m; sourceTree = "<group>"; };
+		2C64A87E1B23E28400EE2699 /* FLEXArgumentInputStringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputStringView.h; sourceTree = "<group>"; };
+		2C64A87F1B23E28400EE2699 /* FLEXArgumentInputStringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputStringView.m; sourceTree = "<group>"; };
+		2C64A8801B23E28400EE2699 /* FLEXArgumentInputStructView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputStructView.h; sourceTree = "<group>"; };
+		2C64A8811B23E28400EE2699 /* FLEXArgumentInputStructView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputStructView.m; sourceTree = "<group>"; };
+		2C64A8821B23E28400EE2699 /* FLEXArgumentInputSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputSwitchView.h; sourceTree = "<group>"; };
+		2C64A8831B23E28400EE2699 /* FLEXArgumentInputSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputSwitchView.m; sourceTree = "<group>"; };
+		2C64A8841B23E28400EE2699 /* FLEXArgumentInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputTextView.h; sourceTree = "<group>"; };
+		2C64A8851B23E28400EE2699 /* FLEXArgumentInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputTextView.m; sourceTree = "<group>"; };
+		2C64A8861B23E28400EE2699 /* FLEXArgumentInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputView.h; sourceTree = "<group>"; };
+		2C64A8871B23E28400EE2699 /* FLEXArgumentInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputView.m; sourceTree = "<group>"; };
+		2C64A8881B23E28400EE2699 /* FLEXArgumentInputViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArgumentInputViewFactory.h; sourceTree = "<group>"; };
+		2C64A8891B23E28400EE2699 /* FLEXArgumentInputViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArgumentInputViewFactory.m; sourceTree = "<group>"; };
+		2C64A88A1B23E28400EE2699 /* FLEXDefaultEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXDefaultEditorViewController.h; sourceTree = "<group>"; };
+		2C64A88B1B23E28400EE2699 /* FLEXDefaultEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXDefaultEditorViewController.m; sourceTree = "<group>"; };
+		2C64A88C1B23E28400EE2699 /* FLEXFieldEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXFieldEditorView.h; sourceTree = "<group>"; };
+		2C64A88D1B23E28400EE2699 /* FLEXFieldEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXFieldEditorView.m; sourceTree = "<group>"; };
+		2C64A88E1B23E28400EE2699 /* FLEXFieldEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXFieldEditorViewController.h; sourceTree = "<group>"; };
+		2C64A88F1B23E28400EE2699 /* FLEXFieldEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXFieldEditorViewController.m; sourceTree = "<group>"; };
+		2C64A8901B23E28400EE2699 /* FLEXIvarEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXIvarEditorViewController.h; sourceTree = "<group>"; };
+		2C64A8911B23E28400EE2699 /* FLEXIvarEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXIvarEditorViewController.m; sourceTree = "<group>"; };
+		2C64A8921B23E28400EE2699 /* FLEXMethodCallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXMethodCallingViewController.h; sourceTree = "<group>"; };
+		2C64A8931B23E28400EE2699 /* FLEXMethodCallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXMethodCallingViewController.m; sourceTree = "<group>"; };
+		2C64A8941B23E28400EE2699 /* FLEXPropertyEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXPropertyEditorViewController.h; sourceTree = "<group>"; };
+		2C64A8951B23E28400EE2699 /* FLEXPropertyEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXPropertyEditorViewController.m; sourceTree = "<group>"; };
+		2C64A8971B23E28400EE2699 /* FLEXExplorerToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXExplorerToolbar.h; sourceTree = "<group>"; };
+		2C64A8981B23E28400EE2699 /* FLEXExplorerToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXExplorerToolbar.m; sourceTree = "<group>"; };
+		2C64A8991B23E28400EE2699 /* FLEXExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A89A1B23E28400EE2699 /* FLEXExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A89B1B23E28400EE2699 /* FLEXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXManager.h; sourceTree = "<group>"; };
+		2C64A89C1B23E28400EE2699 /* FLEXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXManager.m; sourceTree = "<group>"; };
+		2C64A89D1B23E28400EE2699 /* FLEXToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXToolbarItem.h; sourceTree = "<group>"; };
+		2C64A89E1B23E28400EE2699 /* FLEXToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXToolbarItem.m; sourceTree = "<group>"; };
+		2C64A89F1B23E28400EE2699 /* FLEXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXWindow.h; sourceTree = "<group>"; };
+		2C64A8A01B23E28400EE2699 /* FLEXWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXWindow.m; sourceTree = "<group>"; };
+		2C64A8A21B23E28400EE2699 /* FLEXClassesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXClassesTableViewController.h; sourceTree = "<group>"; };
+		2C64A8A31B23E28400EE2699 /* FLEXClassesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXClassesTableViewController.m; sourceTree = "<group>"; };
+		2C64A8A41B23E28400EE2699 /* FLEXFileBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXFileBrowserTableViewController.h; sourceTree = "<group>"; };
+		2C64A8A51B23E28400EE2699 /* FLEXFileBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXFileBrowserTableViewController.m; sourceTree = "<group>"; };
+		2C64A8A61B23E28400EE2699 /* FLEXGlobalsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXGlobalsTableViewController.h; sourceTree = "<group>"; };
+		2C64A8A71B23E28400EE2699 /* FLEXGlobalsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXGlobalsTableViewController.m; sourceTree = "<group>"; };
+		2C64A8A81B23E28400EE2699 /* FLEXInstancesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXInstancesTableViewController.h; sourceTree = "<group>"; };
+		2C64A8A91B23E28400EE2699 /* FLEXInstancesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXInstancesTableViewController.m; sourceTree = "<group>"; };
+		2C64A8AA1B23E28400EE2699 /* FLEXLibrariesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXLibrariesTableViewController.h; sourceTree = "<group>"; };
+		2C64A8AB1B23E28400EE2699 /* FLEXLibrariesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXLibrariesTableViewController.m; sourceTree = "<group>"; };
+		2C64A8AC1B23E28400EE2699 /* FLEXLiveObjectsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXLiveObjectsTableViewController.h; sourceTree = "<group>"; };
+		2C64A8AD1B23E28400EE2699 /* FLEXLiveObjectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXLiveObjectsTableViewController.m; sourceTree = "<group>"; };
+		2C64A8AE1B23E28400EE2699 /* FLEXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXWebViewController.h; sourceTree = "<group>"; };
+		2C64A8AF1B23E28400EE2699 /* FLEXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXWebViewController.m; sourceTree = "<group>"; };
+		2C64A8B11B23E28400EE2699 /* FLEXArrayExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArrayExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8B21B23E28400EE2699 /* FLEXArrayExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArrayExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8B31B23E28400EE2699 /* FLEXClassExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXClassExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8B41B23E28400EE2699 /* FLEXClassExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXClassExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8B51B23E28400EE2699 /* FLEXDefaultsExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXDefaultsExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8B61B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXDefaultsExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8B71B23E28400EE2699 /* FLEXDescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXDescriptionTableViewCell.h; sourceTree = "<group>"; };
+		2C64A8B81B23E28400EE2699 /* FLEXDescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXDescriptionTableViewCell.m; sourceTree = "<group>"; };
+		2C64A8B91B23E28400EE2699 /* FLEXDictionaryExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXDictionaryExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8BA1B23E28400EE2699 /* FLEXDictionaryExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXDictionaryExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8BB1B23E28400EE2699 /* FLEXImageExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXImageExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8BC1B23E28400EE2699 /* FLEXImageExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXImageExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8BD1B23E28400EE2699 /* FLEXObjectExplorerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXObjectExplorerFactory.h; sourceTree = "<group>"; };
+		2C64A8BE1B23E28400EE2699 /* FLEXObjectExplorerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXObjectExplorerFactory.m; sourceTree = "<group>"; };
+		2C64A8BF1B23E28400EE2699 /* FLEXObjectExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXObjectExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8C01B23E28400EE2699 /* FLEXObjectExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXObjectExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8C11B23E28400EE2699 /* FLEXSetExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXSetExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8C21B23E28400EE2699 /* FLEXSetExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXSetExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8C31B23E28400EE2699 /* FLEXViewControllerExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXViewControllerExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8C41B23E28400EE2699 /* FLEXViewControllerExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXViewControllerExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8C51B23E28400EE2699 /* FLEXViewExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXViewExplorerViewController.h; sourceTree = "<group>"; };
+		2C64A8C61B23E28400EE2699 /* FLEXViewExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXViewExplorerViewController.m; sourceTree = "<group>"; };
+		2C64A8C81B23E28400EE2699 /* FLEXHeapEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXHeapEnumerator.h; sourceTree = "<group>"; };
+		2C64A8C91B23E28400EE2699 /* FLEXHeapEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXHeapEnumerator.m; sourceTree = "<group>"; };
+		2C64A8CA1B23E28400EE2699 /* FLEXResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXResources.h; sourceTree = "<group>"; };
+		2C64A8CB1B23E28400EE2699 /* FLEXResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXResources.m; sourceTree = "<group>"; };
+		2C64A8CC1B23E28400EE2699 /* FLEXRuntimeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXRuntimeUtility.h; sourceTree = "<group>"; };
+		2C64A8CD1B23E28400EE2699 /* FLEXRuntimeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXRuntimeUtility.m; sourceTree = "<group>"; };
+		2C64A8CE1B23E28400EE2699 /* FLEXUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXUtility.h; sourceTree = "<group>"; };
+		2C64A8CF1B23E28400EE2699 /* FLEXUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXUtility.m; sourceTree = "<group>"; };
+		2C64A8D11B23E28400EE2699 /* FLEXHierarchyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXHierarchyTableViewCell.h; sourceTree = "<group>"; };
+		2C64A8D21B23E28400EE2699 /* FLEXHierarchyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXHierarchyTableViewCell.m; sourceTree = "<group>"; };
+		2C64A8D31B23E28400EE2699 /* FLEXHierarchyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXHierarchyTableViewController.h; sourceTree = "<group>"; };
+		2C64A8D41B23E28400EE2699 /* FLEXHierarchyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXHierarchyTableViewController.m; sourceTree = "<group>"; };
+		2C64A8D51B23E28400EE2699 /* FLEXImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXImagePreviewViewController.h; sourceTree = "<group>"; };
+		2C64A8D61B23E28400EE2699 /* FLEXImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXImagePreviewViewController.m; sourceTree = "<group>"; };
+		2C64A90B1B23E30900EE2699 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		2C64A90C1B23E30900EE2699 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		2C64A90D1B23E30900EE2699 /* CalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewCell.h; sourceTree = "<group>"; };
+		2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewCell.m; sourceTree = "<group>"; };
+		2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
+		2C64A9101B23E30900EE2699 /* CalendarViewReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewReusableView.h; sourceTree = "<group>"; };
+		2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewReusableView.m; sourceTree = "<group>"; };
+		2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewReusableView.xib; sourceTree = "<group>"; };
+		2C64A9191B23E31400EE2699 /* ITTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTDateUtil.h; sourceTree = "<group>"; };
+		2C64A91A1B23E31400EE2699 /* ITTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTDateUtil.m; sourceTree = "<group>"; };
+		2C64A91B1B23E31400EE2699 /* ITTDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTDay.h; sourceTree = "<group>"; };
+		2C64A91C1B23E31400EE2699 /* ITTDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTDay.m; sourceTree = "<group>"; };
+		2C64A91D1B23E31400EE2699 /* ITTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTHeader.h; sourceTree = "<group>"; };
+		2C64A91E1B23E31400EE2699 /* ITTMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTMonth.h; sourceTree = "<group>"; };
+		2C64A91F1B23E31400EE2699 /* ITTMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTMonth.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C64A8291B23E20300EE2699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64A8421B23E20400EE2699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C64A8231B23E20300EE2699 = {
+			isa = PBXGroup;
+			children = (
+				2C64A82E1B23E20300EE2699 /* ITTCalendarUtil */,
+				2C64A8481B23E20400EE2699 /* ITTCalendarUtilTests */,
+				2C64A82D1B23E20300EE2699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C64A82D1B23E20300EE2699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A82C1B23E20300EE2699 /* ITTCalendarUtil.app */,
+				2C64A8451B23E20400EE2699 /* ITTCalendarUtilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C64A82E1B23E20300EE2699 /* ITTCalendarUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A9181B23E31400EE2699 /* CalendarUtil */,
+				2C64A90A1B23E30900EE2699 /* CalendarView */,
+				2C64A86F1B23E28400EE2699 /* FLEX */,
+				2C64A8331B23E20300EE2699 /* AppDelegate.h */,
+				2C64A8341B23E20300EE2699 /* AppDelegate.m */,
+				2C64A8551B23E26D00EE2699 /* ViewController.h */,
+				2C64A8561B23E26D00EE2699 /* ViewController.m */,
+				2C64A85F1B23E26D00EE2699 /* Main.storyboard */,
+				2C64A83C1B23E20300EE2699 /* Images.xcassets */,
+				2C64A83E1B23E20300EE2699 /* LaunchScreen.xib */,
+				2C64A82F1B23E20300EE2699 /* Supporting Files */,
+			);
+			path = ITTCalendarUtil;
+			sourceTree = "<group>";
+		};
+		2C64A82F1B23E20300EE2699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8301B23E20300EE2699 /* Info.plist */,
+				2C64A8311B23E20300EE2699 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C64A8481B23E20400EE2699 /* ITTCalendarUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A84B1B23E20400EE2699 /* ITTCalendarUtilTests.m */,
+				2C64A8491B23E20400EE2699 /* Supporting Files */,
+			);
+			path = ITTCalendarUtilTests;
+			sourceTree = "<group>";
+		};
+		2C64A8491B23E20400EE2699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A84A1B23E20400EE2699 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C64A86F1B23E28400EE2699 /* FLEX */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8701B23E28400EE2699 /* Editing */,
+				2C64A8961B23E28400EE2699 /* Explorer Toolbar */,
+				2C64A8A11B23E28400EE2699 /* Global State Explorers */,
+				2C64A8B01B23E28400EE2699 /* Object Explorers */,
+				2C64A8C71B23E28400EE2699 /* Utility */,
+				2C64A8D01B23E28400EE2699 /* View Hierarchy */,
+			);
+			path = FLEX;
+			sourceTree = "<group>";
+		};
+		2C64A8701B23E28400EE2699 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8711B23E28400EE2699 /* Argument Input Views */,
+				2C64A88A1B23E28400EE2699 /* FLEXDefaultEditorViewController.h */,
+				2C64A88B1B23E28400EE2699 /* FLEXDefaultEditorViewController.m */,
+				2C64A88C1B23E28400EE2699 /* FLEXFieldEditorView.h */,
+				2C64A88D1B23E28400EE2699 /* FLEXFieldEditorView.m */,
+				2C64A88E1B23E28400EE2699 /* FLEXFieldEditorViewController.h */,
+				2C64A88F1B23E28400EE2699 /* FLEXFieldEditorViewController.m */,
+				2C64A8901B23E28400EE2699 /* FLEXIvarEditorViewController.h */,
+				2C64A8911B23E28400EE2699 /* FLEXIvarEditorViewController.m */,
+				2C64A8921B23E28400EE2699 /* FLEXMethodCallingViewController.h */,
+				2C64A8931B23E28400EE2699 /* FLEXMethodCallingViewController.m */,
+				2C64A8941B23E28400EE2699 /* FLEXPropertyEditorViewController.h */,
+				2C64A8951B23E28400EE2699 /* FLEXPropertyEditorViewController.m */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		2C64A8711B23E28400EE2699 /* Argument Input Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8721B23E28400EE2699 /* FLEXArgumentInputColorView.h */,
+				2C64A8731B23E28400EE2699 /* FLEXArgumentInputColorView.m */,
+				2C64A8741B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.h */,
+				2C64A8751B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.m */,
+				2C64A8761B23E28400EE2699 /* FLEXArgumentInputFontView.h */,
+				2C64A8771B23E28400EE2699 /* FLEXArgumentInputFontView.m */,
+				2C64A8781B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.h */,
+				2C64A8791B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.m */,
+				2C64A87A1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.h */,
+				2C64A87B1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.m */,
+				2C64A87C1B23E28400EE2699 /* FLEXArgumentInputNumberView.h */,
+				2C64A87D1B23E28400EE2699 /* FLEXArgumentInputNumberView.m */,
+				2C64A87E1B23E28400EE2699 /* FLEXArgumentInputStringView.h */,
+				2C64A87F1B23E28400EE2699 /* FLEXArgumentInputStringView.m */,
+				2C64A8801B23E28400EE2699 /* FLEXArgumentInputStructView.h */,
+				2C64A8811B23E28400EE2699 /* FLEXArgumentInputStructView.m */,
+				2C64A8821B23E28400EE2699 /* FLEXArgumentInputSwitchView.h */,
+				2C64A8831B23E28400EE2699 /* FLEXArgumentInputSwitchView.m */,
+				2C64A8841B23E28400EE2699 /* FLEXArgumentInputTextView.h */,
+				2C64A8851B23E28400EE2699 /* FLEXArgumentInputTextView.m */,
+				2C64A8861B23E28400EE2699 /* FLEXArgumentInputView.h */,
+				2C64A8871B23E28400EE2699 /* FLEXArgumentInputView.m */,
+				2C64A8881B23E28400EE2699 /* FLEXArgumentInputViewFactory.h */,
+				2C64A8891B23E28400EE2699 /* FLEXArgumentInputViewFactory.m */,
+			);
+			path = "Argument Input Views";
+			sourceTree = "<group>";
+		};
+		2C64A8961B23E28400EE2699 /* Explorer Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8971B23E28400EE2699 /* FLEXExplorerToolbar.h */,
+				2C64A8981B23E28400EE2699 /* FLEXExplorerToolbar.m */,
+				2C64A8991B23E28400EE2699 /* FLEXExplorerViewController.h */,
+				2C64A89A1B23E28400EE2699 /* FLEXExplorerViewController.m */,
+				2C64A89B1B23E28400EE2699 /* FLEXManager.h */,
+				2C64A89C1B23E28400EE2699 /* FLEXManager.m */,
+				2C64A89D1B23E28400EE2699 /* FLEXToolbarItem.h */,
+				2C64A89E1B23E28400EE2699 /* FLEXToolbarItem.m */,
+				2C64A89F1B23E28400EE2699 /* FLEXWindow.h */,
+				2C64A8A01B23E28400EE2699 /* FLEXWindow.m */,
+			);
+			path = "Explorer Toolbar";
+			sourceTree = "<group>";
+		};
+		2C64A8A11B23E28400EE2699 /* Global State Explorers */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8A21B23E28400EE2699 /* FLEXClassesTableViewController.h */,
+				2C64A8A31B23E28400EE2699 /* FLEXClassesTableViewController.m */,
+				2C64A8A41B23E28400EE2699 /* FLEXFileBrowserTableViewController.h */,
+				2C64A8A51B23E28400EE2699 /* FLEXFileBrowserTableViewController.m */,
+				2C64A8A61B23E28400EE2699 /* FLEXGlobalsTableViewController.h */,
+				2C64A8A71B23E28400EE2699 /* FLEXGlobalsTableViewController.m */,
+				2C64A8A81B23E28400EE2699 /* FLEXInstancesTableViewController.h */,
+				2C64A8A91B23E28400EE2699 /* FLEXInstancesTableViewController.m */,
+				2C64A8AA1B23E28400EE2699 /* FLEXLibrariesTableViewController.h */,
+				2C64A8AB1B23E28400EE2699 /* FLEXLibrariesTableViewController.m */,
+				2C64A8AC1B23E28400EE2699 /* FLEXLiveObjectsTableViewController.h */,
+				2C64A8AD1B23E28400EE2699 /* FLEXLiveObjectsTableViewController.m */,
+				2C64A8AE1B23E28400EE2699 /* FLEXWebViewController.h */,
+				2C64A8AF1B23E28400EE2699 /* FLEXWebViewController.m */,
+			);
+			path = "Global State Explorers";
+			sourceTree = "<group>";
+		};
+		2C64A8B01B23E28400EE2699 /* Object Explorers */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8B11B23E28400EE2699 /* FLEXArrayExplorerViewController.h */,
+				2C64A8B21B23E28400EE2699 /* FLEXArrayExplorerViewController.m */,
+				2C64A8B31B23E28400EE2699 /* FLEXClassExplorerViewController.h */,
+				2C64A8B41B23E28400EE2699 /* FLEXClassExplorerViewController.m */,
+				2C64A8B51B23E28400EE2699 /* FLEXDefaultsExplorerViewController.h */,
+				2C64A8B61B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m */,
+				2C64A8B71B23E28400EE2699 /* FLEXDescriptionTableViewCell.h */,
+				2C64A8B81B23E28400EE2699 /* FLEXDescriptionTableViewCell.m */,
+				2C64A8B91B23E28400EE2699 /* FLEXDictionaryExplorerViewController.h */,
+				2C64A8BA1B23E28400EE2699 /* FLEXDictionaryExplorerViewController.m */,
+				2C64A8BB1B23E28400EE2699 /* FLEXImageExplorerViewController.h */,
+				2C64A8BC1B23E28400EE2699 /* FLEXImageExplorerViewController.m */,
+				2C64A8BD1B23E28400EE2699 /* FLEXObjectExplorerFactory.h */,
+				2C64A8BE1B23E28400EE2699 /* FLEXObjectExplorerFactory.m */,
+				2C64A8BF1B23E28400EE2699 /* FLEXObjectExplorerViewController.h */,
+				2C64A8C01B23E28400EE2699 /* FLEXObjectExplorerViewController.m */,
+				2C64A8C11B23E28400EE2699 /* FLEXSetExplorerViewController.h */,
+				2C64A8C21B23E28400EE2699 /* FLEXSetExplorerViewController.m */,
+				2C64A8C31B23E28400EE2699 /* FLEXViewControllerExplorerViewController.h */,
+				2C64A8C41B23E28400EE2699 /* FLEXViewControllerExplorerViewController.m */,
+				2C64A8C51B23E28400EE2699 /* FLEXViewExplorerViewController.h */,
+				2C64A8C61B23E28400EE2699 /* FLEXViewExplorerViewController.m */,
+			);
+			path = "Object Explorers";
+			sourceTree = "<group>";
+		};
+		2C64A8C71B23E28400EE2699 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8C81B23E28400EE2699 /* FLEXHeapEnumerator.h */,
+				2C64A8C91B23E28400EE2699 /* FLEXHeapEnumerator.m */,
+				2C64A8CA1B23E28400EE2699 /* FLEXResources.h */,
+				2C64A8CB1B23E28400EE2699 /* FLEXResources.m */,
+				2C64A8CC1B23E28400EE2699 /* FLEXRuntimeUtility.h */,
+				2C64A8CD1B23E28400EE2699 /* FLEXRuntimeUtility.m */,
+				2C64A8CE1B23E28400EE2699 /* FLEXUtility.h */,
+				2C64A8CF1B23E28400EE2699 /* FLEXUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2C64A8D01B23E28400EE2699 /* View Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A8D11B23E28400EE2699 /* FLEXHierarchyTableViewCell.h */,
+				2C64A8D21B23E28400EE2699 /* FLEXHierarchyTableViewCell.m */,
+				2C64A8D31B23E28400EE2699 /* FLEXHierarchyTableViewController.h */,
+				2C64A8D41B23E28400EE2699 /* FLEXHierarchyTableViewController.m */,
+				2C64A8D51B23E28400EE2699 /* FLEXImagePreviewViewController.h */,
+				2C64A8D61B23E28400EE2699 /* FLEXImagePreviewViewController.m */,
+			);
+			path = "View Hierarchy";
+			sourceTree = "<group>";
+		};
+		2C64A90A1B23E30900EE2699 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A90B1B23E30900EE2699 /* CalendarView.h */,
+				2C64A90C1B23E30900EE2699 /* CalendarView.m */,
+				2C64A90D1B23E30900EE2699 /* CalendarViewCell.h */,
+				2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */,
+				2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */,
+				2C64A9101B23E30900EE2699 /* CalendarViewReusableView.h */,
+				2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */,
+				2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		2C64A9181B23E31400EE2699 /* CalendarUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2C64A9191B23E31400EE2699 /* ITTDateUtil.h */,
+				2C64A91A1B23E31400EE2699 /* ITTDateUtil.m */,
+				2C64A91B1B23E31400EE2699 /* ITTDay.h */,
+				2C64A91C1B23E31400EE2699 /* ITTDay.m */,
+				2C64A91D1B23E31400EE2699 /* ITTHeader.h */,
+				2C64A91E1B23E31400EE2699 /* ITTMonth.h */,
+				2C64A91F1B23E31400EE2699 /* ITTMonth.m */,
+			);
+			path = CalendarUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C64A82B1B23E20300EE2699 /* ITTCalendarUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64A84F1B23E20400EE2699 /* Build configuration list for PBXNativeTarget "ITTCalendarUtil" */;
+			buildPhases = (
+				2C64A8281B23E20300EE2699 /* Sources */,
+				2C64A8291B23E20300EE2699 /* Frameworks */,
+				2C64A82A1B23E20300EE2699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITTCalendarUtil;
+			productName = ITTCalendarUtil;
+			productReference = 2C64A82C1B23E20300EE2699 /* ITTCalendarUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C64A8441B23E20400EE2699 /* ITTCalendarUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64A8521B23E20400EE2699 /* Build configuration list for PBXNativeTarget "ITTCalendarUtilTests" */;
+			buildPhases = (
+				2C64A8411B23E20400EE2699 /* Sources */,
+				2C64A8421B23E20400EE2699 /* Frameworks */,
+				2C64A8431B23E20400EE2699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C64A8471B23E20400EE2699 /* PBXTargetDependency */,
+			);
+			name = ITTCalendarUtilTests;
+			productName = ITTCalendarUtilTests;
+			productReference = 2C64A8451B23E20400EE2699 /* ITTCalendarUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C64A8241B23E20300EE2699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Johnson;
+				TargetAttributes = {
+					2C64A82B1B23E20300EE2699 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2C64A8441B23E20400EE2699 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2C64A82B1B23E20300EE2699;
+					};
+				};
+			};
+			buildConfigurationList = 2C64A8271B23E20300EE2699 /* Build configuration list for PBXProject "ITTCalendarUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C64A8231B23E20300EE2699;
+			productRefGroup = 2C64A82D1B23E20300EE2699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C64A82B1B23E20300EE2699 /* ITTCalendarUtil */,
+				2C64A8441B23E20400EE2699 /* ITTCalendarUtilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C64A82A1B23E20300EE2699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64A8661B23E26D00EE2699 /* Main.storyboard in Resources */,
+				2C64A8401B23E20300EE2699 /* LaunchScreen.xib in Resources */,
+				2C64A9171B23E30900EE2699 /* CalendarViewReusableView.xib in Resources */,
+				2C64A9151B23E30900EE2699 /* CalendarViewCell.xib in Resources */,
+				2C64A83D1B23E20300EE2699 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64A8431B23E20400EE2699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C64A8281B23E20300EE2699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64A8DE1B23E28400EE2699 /* FLEXArgumentInputNotSupportedView.m in Sources */,
+				2C64A9201B23E31400EE2699 /* ITTDateUtil.m in Sources */,
+				2C64A9211B23E31400EE2699 /* ITTDay.m in Sources */,
+				2C64A8ED1B23E28400EE2699 /* FLEXExplorerViewController.m in Sources */,
+				2C64A8E91B23E28400EE2699 /* FLEXIvarEditorViewController.m in Sources */,
+				2C64A8E21B23E28400EE2699 /* FLEXArgumentInputSwitchView.m in Sources */,
+				2C64A8FF1B23E28400EE2699 /* FLEXObjectExplorerViewController.m in Sources */,
+				2C64A9001B23E28400EE2699 /* FLEXSetExplorerViewController.m in Sources */,
+				2C64A8EB1B23E28400EE2699 /* FLEXPropertyEditorViewController.m in Sources */,
+				2C64A8EA1B23E28400EE2699 /* FLEXMethodCallingViewController.m in Sources */,
+				2C64A9021B23E28400EE2699 /* FLEXViewExplorerViewController.m in Sources */,
+				2C64A9061B23E28400EE2699 /* FLEXUtility.m in Sources */,
+				2C64A8F81B23E28400EE2699 /* FLEXArrayExplorerViewController.m in Sources */,
+				2C64A8F71B23E28400EE2699 /* FLEXWebViewController.m in Sources */,
+				2C64A8E71B23E28400EE2699 /* FLEXFieldEditorView.m in Sources */,
+				2C64A8E31B23E28400EE2699 /* FLEXArgumentInputTextView.m in Sources */,
+				2C64A8DB1B23E28400EE2699 /* FLEXArgumentInputFontsPickerView.m in Sources */,
+				2C64A8601B23E26D00EE2699 /* ViewController.m in Sources */,
+				2C64A8F51B23E28400EE2699 /* FLEXLibrariesTableViewController.m in Sources */,
+				2C64A9141B23E30900EE2699 /* CalendarViewCell.m in Sources */,
+				2C64A8F01B23E28400EE2699 /* FLEXWindow.m in Sources */,
+				2C64A8F41B23E28400EE2699 /* FLEXInstancesTableViewController.m in Sources */,
+				2C64A8FE1B23E28400EE2699 /* FLEXObjectExplorerFactory.m in Sources */,
+				2C64A8DC1B23E28400EE2699 /* FLEXArgumentInputFontView.m in Sources */,
+				2C64A8351B23E20300EE2699 /* AppDelegate.m in Sources */,
+				2C64A8FB1B23E28400EE2699 /* FLEXDescriptionTableViewCell.m in Sources */,
+				2C64A8FA1B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m in Sources */,
+				2C64A8E11B23E28400EE2699 /* FLEXArgumentInputStructView.m in Sources */,
+				2C64A9161B23E30900EE2699 /* CalendarViewReusableView.m in Sources */,
+				2C64A9091B23E28400EE2699 /* FLEXImagePreviewViewController.m in Sources */,
+				2C64A9131B23E30900EE2699 /* CalendarView.m in Sources */,
+				2C64A9071B23E28400EE2699 /* FLEXHierarchyTableViewCell.m in Sources */,
+				2C64A8321B23E20300EE2699 /* main.m in Sources */,
+				2C64A8F21B23E28400EE2699 /* FLEXFileBrowserTableViewController.m in Sources */,
+				2C64A9041B23E28400EE2699 /* FLEXResources.m in Sources */,
+				2C64A8E01B23E28400EE2699 /* FLEXArgumentInputStringView.m in Sources */,
+				2C64A8DD1B23E28400EE2699 /* FLEXArgumentInputJSONObjectView.m in Sources */,
+				2C64A8FC1B23E28400EE2699 /* FLEXDictionaryExplorerViewController.m in Sources */,
+				2C64A9011B23E28400EE2699 /* FLEXViewControllerExplorerViewController.m in Sources */,
+				2C64A8DF1B23E28400EE2699 /* FLEXArgumentInputNumberView.m in Sources */,
+				2C64A8F61B23E28400EE2699 /* FLEXLiveObjectsTableViewController.m in Sources */,
+				2C64A8E81B23E28400EE2699 /* FLEXFieldEditorViewController.m in Sources */,
+				2C64A9081B23E28400EE2699 /* FLEXHierarchyTableViewController.m in Sources */,
+				2C64A9031B23E28400EE2699 /* FLEXHeapEnumerator.m in Sources */,
+				2C64A8EE1B23E28400EE2699 /* FLEXManager.m in Sources */,
+				2C64A8EC1B23E28400EE2699 /* FLEXExplorerToolbar.m in Sources */,
+				2C64A8F11B23E28400EE2699 /* FLEXClassesTableViewController.m in Sources */,
+				2C64A8E61B23E28400EE2699 /* FLEXDefaultEditorViewController.m in Sources */,
+				2C64A8EF1B23E28400EE2699 /* FLEXToolbarItem.m in Sources */,
+				2C64A8DA1B23E28400EE2699 /* FLEXArgumentInputColorView.m in Sources */,
+				2C64A8F91B23E28400EE2699 /* FLEXClassExplorerViewController.m in Sources */,
+				2C64A8F31B23E28400EE2699 /* FLEXGlobalsTableViewController.m in Sources */,
+				2C64A8E41B23E28400EE2699 /* FLEXArgumentInputView.m in Sources */,
+				2C64A9221B23E31400EE2699 /* ITTMonth.m in Sources */,
+				2C64A8E51B23E28400EE2699 /* FLEXArgumentInputViewFactory.m in Sources */,
+				2C64A8FD1B23E28400EE2699 /* FLEXImageExplorerViewController.m in Sources */,
+				2C64A9051B23E28400EE2699 /* FLEXRuntimeUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64A8411B23E20400EE2699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64A84C1B23E20400EE2699 /* ITTCalendarUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C64A8471B23E20400EE2699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C64A82B1B23E20300EE2699 /* ITTCalendarUtil */;
+			targetProxy = 2C64A8461B23E20400EE2699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C64A83E1B23E20300EE2699 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64A83F1B23E20300EE2699 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C64A84D1B23E20400EE2699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C64A84E1B23E20400EE2699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C64A8501B23E20400EE2699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITTCalendarUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C64A8511B23E20400EE2699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITTCalendarUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C64A8531B23E20400EE2699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITTCalendarUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITTCalendarUtil.app/ITTCalendarUtil";
+			};
+			name = Debug;
+		};
+		2C64A8541B23E20400EE2699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITTCalendarUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITTCalendarUtil.app/ITTCalendarUtil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C64A8271B23E20300EE2699 /* Build configuration list for PBXProject "ITTCalendarUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64A84D1B23E20400EE2699 /* Debug */,
+				2C64A84E1B23E20400EE2699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64A84F1B23E20400EE2699 /* Build configuration list for PBXNativeTarget "ITTCalendarUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64A8501B23E20400EE2699 /* Debug */,
+				2C64A8511B23E20400EE2699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C64A8521B23E20400EE2699 /* Build configuration list for PBXNativeTarget "ITTCalendarUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64A8531B23E20400EE2699 /* Debug */,
+				2C64A8541B23E20400EE2699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C64A8241B23E20300EE2699 /* Project object */;
+}
