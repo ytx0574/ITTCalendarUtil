@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class ITTDay;
+@class ITTMonth;
+
 @interface CalendarViewCell : UICollectionViewCell
 
-- (void)setInfo:(id)info;
+- (void)setInfo:(ITTDay *)day month:(ITTMonth *)month;
 
 @end

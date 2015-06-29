@@ -96,13 +96,26 @@
     return [NSDate dateWithTimeIntervalSinceNow:dayInterval*24*60*60];
 }
 
-+ (NSArray *)allDays:(ITTMonth *)month
++ (NSArray *)allDaysFromMonth:(ITTMonth *)month
+{
+    return [ITTDateUtil allDaysFromMonth:month monthOfFirstDayType:MonthOfFirstDayTypeSunday];
+}
+
++ (NSArray *)allDaysFromMonth:(ITTMonth *)month monthOfFirstDayType:(MonthOfFirstDayType)type
 {
     NSMutableArray *array = [NSMutableArray array];
     
     //日 一 二 三 四 五 六
-    ITTMonth *previousMonth = [month previousMonth];
     NSInteger previousInterval = month.firstDay.getWeekDay - 1;
+    NSInteger nextInterval = 7 - month.lastDay.getWeekDay;
+    
+    if (type == MonthOfFirstDayTypeMonday) {
+        previousInterval = month.firstDay.getWeekDay == WeekDaySunday ? 6 : previousInterval - 1;
+        nextInterval = month.lastDay.getWeekDay == WeekDaySunday ? 0 : nextInterval + 1;
+    }
+    
+
+    ITTMonth *previousMonth = [month previousMonth];
     for (int i = 1; i <= previousInterval; i ++) {
         NSInteger dayNumber = month.previousMonth.lastDay.getDay - previousInterval + i;
         ITTDay *day = [[ITTDay alloc] initWithYear:[previousMonth getYear] month:[previousMonth getMonth] day:dayNumber];
@@ -124,7 +137,6 @@
     }
     
     ITTMonth *nextMonth = [month nextMonth];
-    NSInteger nextInterval = 7 - month.lastDay.getWeekDay;
     for (int i = 1; i <= nextInterval; i ++) {
         NSInteger dayNumber = i;
         ITTDay *day = [[ITTDay alloc] initWithYear:[nextMonth getYear] month:[nextMonth getMonth] day:dayNumber];

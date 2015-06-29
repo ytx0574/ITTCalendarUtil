@@ -128,6 +128,22 @@
     return calMonth;
 }
 
+- (BOOL)isThisMonth;
+{
+    ITTDay *day = [[ITTDay alloc] initWithDate:[NSDate date]];
+    return (self.getYear == [day getYear] && self.getMonth == [day getMonth]);
+}
+
+- (BOOL)isThisMonth:(ITTDay *)day;
+{
+    return (self.getYear == [day getYear] && self.getMonth == [day getMonth]);
+}
+
+- (BOOL)isEqualMonth:(ITTMonth *)month;
+{
+    return (self.getMonth == month.getMonth && self.getYear == month.getYear);
+}
+
 - (DayType)dayType:(ITTDay*)calDay
 {
     if ([self getYear] == [calDay getYear]) {

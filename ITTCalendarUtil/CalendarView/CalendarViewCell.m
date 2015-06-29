@@ -9,9 +9,21 @@
 #import "CalendarViewCell.h"
 #import "ITTHeader.h"
 
+#define LightGrayTextColor RGBCOLOR(201, 202, 202)
+#define BlackTextColor     [UIColor blackColor]
+
+#define SignNormalBackgroundColor    RGBCOLOR(225, 242, 252)
+#define SignAskLeaveBorderColor      RGBCOLOR(239, 131, 111)
+
+#define TodayLineColor               RGBCOLOR(238, 123, 102)
+#define OtherLineColor               RGBCOLOR(75, 182, 233)
+
 @interface CalendarViewCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIView *viewBackGround;
+
+@property (weak, nonatomic) IBOutlet UIView *viewSelectLine;
 
 @end
 
@@ -20,15 +32,13 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    self.label.layer.cornerRadius = self.bounds.size.height / 2;
-    self.label.backgroundColor = [UIColor brownColor];
-    self.label.layer.masksToBounds = YES;
+    self.selectedBackgroundView = self.viewBackGround;
 }
 
-- (void)setInfo:(ITTDay *)day;
+
+- (void)setInfo:(ITTDay *)day month:(ITTMonth *)month
 {
     self.label.text = [NSString stringWithFormat:@"%@", @([day getDay])];
-    self.label.textColor = day.color;
 }
 
 @end

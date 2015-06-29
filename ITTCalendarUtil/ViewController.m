@@ -11,10 +11,12 @@
 #import "ITTHeader.h"
 #import "CalendarView.h"
 
-@interface ViewController ()
+@interface ViewController ()<CalendarViewDelegate>
 
 @property (nonatomic, strong) NSArray *arrayWithDays;
 @property (weak, nonatomic) IBOutlet CalendarView *calendarView;
+
+@property (nonatomic, strong) ITTMonth *currentMonth;
 
 @end
 
@@ -22,14 +24,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ITTMonth *month = [[ITTMonth alloc] initWithDate:[NSDate dateWithTimeInterval:-24 * 60 * 60 * 30 sinceDate:[NSDate date]]];
-    self.calendarView.months = @[[ITTDateUtil allDays:month], [ITTDateUtil allDays:month]];
+    self.currentMonth = [[ITTMonth alloc] initWithDate:[NSDate dateWithTimeInterval:-24 * 60 * 60 * 30 sinceDate:[NSDate date]]];
+    self.calendarView.months = @[ _currentMonth ];
     self.calendarView.delegate = (id)self;
-    self.calendarView.headerViewHeight = 111;
-    [self.calendarView sizeToFit];
+//    self.calendarView.headerViewHeight = 111;
     
     // Do any additional setup after loading the view, typically from a nib.
     
+}
+
+- (void)headerClickTouchUpInside:(NSInteger)type
+{
+    ITTMonth *month = (type == 0 ? [_currentMonth previousMonth] : [_currentMonth nextMonth]);
+    _currentMonth = month;
+    self.calendarView.months = @[ _currentMonth ];
+}
+
+- (void)footerClickTouchUpInside:(NSInteger)type
+{
+
+}
+
+- (void)didSelectDay:(ITTDay *)day
+{
+
 }
 
 - (void)didReceiveMemoryWarning {

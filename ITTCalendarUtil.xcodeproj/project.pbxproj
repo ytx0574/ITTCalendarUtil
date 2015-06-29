@@ -65,11 +65,13 @@
 		2C64A9131B23E30900EE2699 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A90C1B23E30900EE2699 /* CalendarView.m */; };
 		2C64A9141B23E30900EE2699 /* CalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */; };
 		2C64A9151B23E30900EE2699 /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */; };
-		2C64A9161B23E30900EE2699 /* CalendarViewReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */; };
-		2C64A9171B23E30900EE2699 /* CalendarViewReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */; };
+		2C64A9161B23E30900EE2699 /* CalendarHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A9111B23E30900EE2699 /* CalendarHeaderReusableView.m */; };
+		2C64A9171B23E30900EE2699 /* CalendarHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C64A9121B23E30900EE2699 /* CalendarHeaderReusableView.xib */; };
 		2C64A9201B23E31400EE2699 /* ITTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91A1B23E31400EE2699 /* ITTDateUtil.m */; };
 		2C64A9211B23E31400EE2699 /* ITTDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91C1B23E31400EE2699 /* ITTDay.m */; };
 		2C64A9221B23E31400EE2699 /* ITTMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64A91F1B23E31400EE2699 /* ITTMonth.m */; };
+		2C6BB1831B41042D008E6226 /* CalendarFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BB1811B41042D008E6226 /* CalendarFooterReusableView.m */; };
+		2C6BB1841B41042D008E6226 /* CalendarFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BB1821B41042D008E6226 /* CalendarFooterReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,9 +199,9 @@
 		2C64A90D1B23E30900EE2699 /* CalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewCell.h; sourceTree = "<group>"; };
 		2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewCell.m; sourceTree = "<group>"; };
 		2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
-		2C64A9101B23E30900EE2699 /* CalendarViewReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewReusableView.h; sourceTree = "<group>"; };
-		2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewReusableView.m; sourceTree = "<group>"; };
-		2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewReusableView.xib; sourceTree = "<group>"; };
+		2C64A9101B23E30900EE2699 /* CalendarHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHeaderReusableView.h; sourceTree = "<group>"; };
+		2C64A9111B23E30900EE2699 /* CalendarHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHeaderReusableView.m; sourceTree = "<group>"; };
+		2C64A9121B23E30900EE2699 /* CalendarHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarHeaderReusableView.xib; sourceTree = "<group>"; };
 		2C64A9191B23E31400EE2699 /* ITTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTDateUtil.h; sourceTree = "<group>"; };
 		2C64A91A1B23E31400EE2699 /* ITTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTDateUtil.m; sourceTree = "<group>"; };
 		2C64A91B1B23E31400EE2699 /* ITTDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTDay.h; sourceTree = "<group>"; };
@@ -207,6 +209,10 @@
 		2C64A91D1B23E31400EE2699 /* ITTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTHeader.h; sourceTree = "<group>"; };
 		2C64A91E1B23E31400EE2699 /* ITTMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTMonth.h; sourceTree = "<group>"; };
 		2C64A91F1B23E31400EE2699 /* ITTMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTMonth.m; sourceTree = "<group>"; };
+		2C6BB1801B41042D008E6226 /* CalendarFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarFooterReusableView.h; sourceTree = "<group>"; };
+		2C6BB1811B41042D008E6226 /* CalendarFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarFooterReusableView.m; sourceTree = "<group>"; };
+		2C6BB1821B41042D008E6226 /* CalendarFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarFooterReusableView.xib; sourceTree = "<group>"; };
+		2C6BB1851B4104E3008E6226 /* CalendarViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,14 +457,18 @@
 		2C64A90A1B23E30900EE2699 /* CalendarView */ = {
 			isa = PBXGroup;
 			children = (
+				2C6BB1851B4104E3008E6226 /* CalendarViewHeader.h */,
 				2C64A90B1B23E30900EE2699 /* CalendarView.h */,
 				2C64A90C1B23E30900EE2699 /* CalendarView.m */,
 				2C64A90D1B23E30900EE2699 /* CalendarViewCell.h */,
 				2C64A90E1B23E30900EE2699 /* CalendarViewCell.m */,
 				2C64A90F1B23E30900EE2699 /* CalendarViewCell.xib */,
-				2C64A9101B23E30900EE2699 /* CalendarViewReusableView.h */,
-				2C64A9111B23E30900EE2699 /* CalendarViewReusableView.m */,
-				2C64A9121B23E30900EE2699 /* CalendarViewReusableView.xib */,
+				2C64A9101B23E30900EE2699 /* CalendarHeaderReusableView.h */,
+				2C64A9111B23E30900EE2699 /* CalendarHeaderReusableView.m */,
+				2C64A9121B23E30900EE2699 /* CalendarHeaderReusableView.xib */,
+				2C6BB1801B41042D008E6226 /* CalendarFooterReusableView.h */,
+				2C6BB1811B41042D008E6226 /* CalendarFooterReusableView.m */,
+				2C6BB1821B41042D008E6226 /* CalendarFooterReusableView.xib */,
 			);
 			path = CalendarView;
 			sourceTree = "<group>";
@@ -559,7 +569,8 @@
 			files = (
 				2C64A8661B23E26D00EE2699 /* Main.storyboard in Resources */,
 				2C64A8401B23E20300EE2699 /* LaunchScreen.xib in Resources */,
-				2C64A9171B23E30900EE2699 /* CalendarViewReusableView.xib in Resources */,
+				2C6BB1841B41042D008E6226 /* CalendarFooterReusableView.xib in Resources */,
+				2C64A9171B23E30900EE2699 /* CalendarHeaderReusableView.xib in Resources */,
 				2C64A9151B23E30900EE2699 /* CalendarViewCell.xib in Resources */,
 				2C64A83D1B23E20300EE2699 /* Images.xcassets in Resources */,
 			);
@@ -607,8 +618,9 @@
 				2C64A8FB1B23E28400EE2699 /* FLEXDescriptionTableViewCell.m in Sources */,
 				2C64A8FA1B23E28400EE2699 /* FLEXDefaultsExplorerViewController.m in Sources */,
 				2C64A8E11B23E28400EE2699 /* FLEXArgumentInputStructView.m in Sources */,
-				2C64A9161B23E30900EE2699 /* CalendarViewReusableView.m in Sources */,
+				2C64A9161B23E30900EE2699 /* CalendarHeaderReusableView.m in Sources */,
 				2C64A9091B23E28400EE2699 /* FLEXImagePreviewViewController.m in Sources */,
+				2C6BB1831B41042D008E6226 /* CalendarFooterReusableView.m in Sources */,
 				2C64A9131B23E30900EE2699 /* CalendarView.m in Sources */,
 				2C64A9071B23E28400EE2699 /* FLEXHierarchyTableViewCell.m in Sources */,
 				2C64A8321B23E20300EE2699 /* main.m in Sources */,
@@ -818,6 +830,7 @@
 				2C64A8511B23E20400EE2699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C64A8521B23E20400EE2699 /* Build configuration list for PBXNativeTarget "ITTCalendarUtilTests" */ = {
 			isa = XCConfigurationList;
@@ -826,6 +839,7 @@
 				2C64A8541B23E20400EE2699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

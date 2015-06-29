@@ -55,6 +55,10 @@ typedef NS_ENUM(NSInteger, DayType)
 - (ITTMonth *)nextMonth;
 - (ITTMonth *)previousMonth;
 
+- (BOOL)isThisMonth;
+- (BOOL)isThisMonth:(ITTDay *)day;
+- (BOOL)isEqualMonth:(ITTMonth *)month;
+
 - (DayType)dayType:(ITTDay*)calDay;
 
 @end

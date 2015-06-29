@@ -7,21 +7,27 @@
 //
 
 #import <UIKit/UIKit.h>
+
 @class ITTDay;
 @class ITTMonth;
 
 @protocol CalendarViewDelegate <NSObject>
 
+@optional
 - (void)didSelectDay:(ITTDay *)day;
+
+- (void)headerClickTouchUpInside:(NSInteger)type;
+
+- (void)footerClickTouchUpInside:(NSInteger)type;
 
 @end
 
 @interface CalendarView : UIView
 
-@property (nonatomic, assign) CGFloat headerViewHeight;
-
 @property (nonatomic, strong) NSArray *months;
 
 @property (nonatomic, strong) id<CalendarViewDelegate> delegate;
+
+@property (nonatomic, strong) NSArray *signData;
 
 @end

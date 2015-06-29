@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 @class ITTMonth;
 
+typedef NS_ENUM(NSInteger, MonthOfFirstDayType)
+{
+    MonthOfFirstDayTypeSunday,
+    MonthOfFirstDayTypeMonday
+};
+
 @interface ITTDateUtil : NSObject
 
 + (BOOL)isLeapYear:(NSInteger)year;
@@ -29,6 +35,8 @@
 
 + (NSDate *)dateSinceNowWithInterval:(NSInteger)dayInterval;
 
-+ (NSArray *)allDays:(ITTMonth *)month;
++ (NSArray *)allDaysFromMonth:(ITTMonth *)month;
+
++ (NSArray *)allDaysFromMonth:(ITTMonth *)month monthOfFirstDayType:(MonthOfFirstDayType)type;
 
 @end

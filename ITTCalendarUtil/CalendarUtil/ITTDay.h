@@ -11,13 +11,13 @@
 typedef NS_ENUM(NSInteger, WeekDay)
 {
     WeekDayUnknown = 0,
-    WeekDayMonday,
-    WeekDayTuesday,
-    WeekDayWednesday,
-    WeekDayThurday,
-    WeekDayFriday,
-    WeekDaySaturday,
-    WeekDaySunday
+    WeekDaySunday = 1,
+    WeekDayMonday = 2,
+    WeekDayTuesday = 3,
+    WeekDayWednesday = 4,
+    WeekDayThurday = 5,
+    WeekDayFriday = 6,
+    WeekDaySaturday = 7,
 };
 
 @interface ITTDay : NSObject
@@ -40,7 +40,7 @@ typedef NS_ENUM(NSInteger, WeekDay)
 - (NSUInteger)getMonth;
 - (NSUInteger)getDay;
 - (NSUInteger)getWeekDay;
-- (NSComparisonResult)compare:(ITTDay*)calDay;
+- (NSComparisonResult)compare:(ITTDay *)calDay;
 
 - (NSString *)getWeekDayName;
 
